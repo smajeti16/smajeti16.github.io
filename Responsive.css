@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+h1 {
+	font-family: verdana;
+	font-size: 38px;
+	margin: 25px;
+}
+
+
+#container {
+	width: 100%;
+	height: auto;
+	background: #FEF5E7;
+}
+
+#img IMG {
+	width: 100%;
+	height: auto;
+}
+
+#text {
+	width: 90%;
+	height: auto;
+	text-align: center;
+}

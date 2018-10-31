@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+#container {
+	width: 1420px;
+	height: 710px;
+	float: left;
+	background: #EEF5FC;
+}
+
+#blankSpace {
+	width: 70px;
+	height: 675px;
+	float: left;
+}
+
+#blankSpaceTop {
+	width: 1420px;
+	height: 35px;
+	float: left;
+}
+
+#square1 {
+	width: 175px;
+	height: 150px;
+	float: left;
+	margin: 20px;
+	margin-top: 25px;
+	background: #EEF5FC;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/
+	background-color: #EEF5FC;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
