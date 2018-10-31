@@ -1,22 +1,58 @@
 @charset "utf-8";
 
+h1 {
+    color: white;
+    font-family: verdana;
+    font-size: 38px;
+    margin: 25px;
+}
+
 #container {
 	width: 1420px;
 	height: 710px;
 	float: left;
-	background: #EEF5FC;
+	background: #fff;
 }
 
-#blankSpace {
-	width: 70px;
-	height: 675px;
+#Part1 {
+	width: 236px;
+	height: 700px;
 	float: left;
+    background-color: #0d1a26;
 }
 
-#blankSpaceTop {
-	width: 1420px;
-	height: 35px;
-	float: left;
+#Part2 {
+    width: 236px;
+    height: 700px;
+    float: left;
+    background-color: #204060;
+}
+
+#Part3 {
+    width: 236px;
+    height: 700px;
+    float: left;
+    background-color: #336699;
+}
+
+#Part4 {
+    width: 236px;
+    height: 700px;
+    float: left;
+    background-color: #538cc6;
+}
+
+#Part5 {
+    width: 236px;
+    height: 700px;
+    float: left;
+    background-color: #8cb3d9;
+}
+#Part6 {
+    width: 236px;
+    height: 700px;
+    float: left;
+    background-color: #c6d9ec;
 }
 
 #square1 {
@@ -26,60 +62,5 @@
 	margin: 20px;
 	margin-top: 25px;
 	background: #EEF5FC;
-}
-
-/* Centered text */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-    /*border-bottom: 1px dotted black;*/
-	background-color: #EEF5FC;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-
-#toc_container {
-    background: #f9f9f9 none repeat scroll 0 0;
-    border: 1px solid #aaa;
-    display: table;
-    font-size: 95%;
-    margin-bottom: 1em;
-    padding: 20px;
-    width: auto;
-}
-
-.toc_title {
-    font-weight: 700;
-    text-align: center;
-}
-
-#toc_container li, #toc_container ul, #toc_container ul li{
-    list-style: outside none none !important;
 }
 
