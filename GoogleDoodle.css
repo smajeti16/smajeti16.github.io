@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+#container {
+	width: 1430px;
+	height: 710px;
+	float: left;
+	background: #fff;
+}
+
+@font-face {
+  font-family: Verdana;
+}
+
+header { 
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 900px;
+}
+header video { width: 100%; }
+svg { 
+  width: 100%;
+  position:absolute;
+  top: 0;
+  left: 0; // needed for FF, Safari, Edge
+  height: 100%;
+}
+svg text {
+  font-family: Verdana;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+svg rect {
+  fill: white;
+}
+svg > rect {
+    -webkit-mask: url(#mask);
+    mask: url(#mask);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
